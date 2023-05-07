@@ -1,0 +1,9 @@
+:root {
+  --dominantColor: #762514; /* var(--dominantColor) !important; */
+  --secondaryColor: #a2331b; /* var(--secondaryColor) !important; */
+  --accentColor: #765614; /* var(--accentColor) !important; */
+
+  /*box shadow*/
+  /*vertical, horizontal, blur, spread, color and opacity*/
+  --boxShadow: 0 0 20px 0 rgba(0, 0, 0, 0.35); /* var(--boxShadow) !important */
+}

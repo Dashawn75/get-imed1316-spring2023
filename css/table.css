@@ -1,0 +1,97 @@
+@import "main.css";
+@import "custom.css";
+
+.webform {
+  width: 75%;
+  position: relative;
+  margin: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+  padding: 30px;
+  background-color: #fffffd;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.webform div {
+  margin-top: 10px;
+}
+
+#age {
+  width: 100px;
+}
+
+#date {
+  width: 150px;
+}
+
+#custom {
+  margin-top: 5px;
+}
+
+.submit {
+  border-color: var(--secondaryColor) !important;
+  color: var(--secondaryColor) !important;
+}
+
+.submit:hover {
+  border-color: var(--secondaryColor) !important;
+  background-color: var(--secondaryColor) !important;
+  color: #ffffff !important;
+}
+
+.checkbox,
+.radio {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.content-table {
+  /*border 1px solid;
+   border-collapse: collapse;*/
+  width: 90% !important;
+  margin: auto;
+  max-width: 1000px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+}
+
+.content-table thead tr {
+  background-color: #762514;
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+.content-table th {
+  padding: 15x !important;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 3px solid #762514 !important;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #eee !important;
+}
+
+.footer-row {
+  background-color: var(--dominantColor) !important;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.footer-row a {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+h1,
+h2 {
+  color: var(--accentColor) !important;
